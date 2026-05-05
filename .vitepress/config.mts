@@ -5,7 +5,7 @@ export default defineConfig({
   title: "FirstBlog",
   description: "个人博客内容测试。",
   srcDir: 'docs',
-  outDir: 'dist',
+  outDir: '.vitepress/dist',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
